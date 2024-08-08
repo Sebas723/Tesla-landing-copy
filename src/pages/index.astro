@@ -1,8 +1,15 @@
 ---
-import HeroSection from "../components/HeroSection.astro";
+import HeroSection from "../components/IndexComponents/HeroSection.astro";
 import LandingHeader from "../components/LandingHeader.astro"
 import Layout from "../layouts/Layout.astro";
-import ChargeSectionContain from "../components/ChargeSectionContain.astro";
+import SectionModelY from "../components/IndexComponents/SectionModelY.astro";
+import SectionModelX from "../components/IndexComponents/SectionModelX.astro";
+import SectionModelS from "../components/IndexComponents/SectionModelS.astro";
+import SectionCyberTruck from "../components/IndexComponents/SectionCyberTruck.astro";
+import SectionSolarPanels from "../components/IndexComponents/SectionSolarPanels.astro";
+import SectionSolarRoof from "../components/IndexComponents/SectionSolarRoof.astro";
+import SectionPowerall from "../components/IndexComponents/SectionPowerall.astro";
+import SectionAccessories from "../components/IndexComponents/SectionAccessories.astro";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -12,13 +19,28 @@ import ChargeSectionContain from "../components/ChargeSectionContain.astro";
       <HeroSection />
     </div>
     <div class="snap-center">
-      <ChargeSectionContain />
+      <SectionModelY />
     </div>
     <div class="snap-center">
-      <HeroSection />
+      <SectionModelX />
     </div>
     <div class="snap-center">
-      <ChargeSectionContain />
+      <SectionModelS />
+    </div>
+    <div class="snap-center">
+      <SectionCyberTruck />
+    </div>
+    <div class="snap-center">
+      <SectionSolarPanels />
+    </div>
+    <div class="snap-center">
+      <SectionSolarRoof />
+    </div>
+    <div class="snap-center">
+      <SectionPowerall />
+    </div>
+    <div class="snap-center">
+      <SectionAccessories />
     </div>
 
   </main>

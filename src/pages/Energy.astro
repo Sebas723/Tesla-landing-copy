@@ -1,0 +1,19 @@
+---
+import LandingHeader from "../components/LandingHeader.astro";
+import Layout from "../layouts/Layout.astro";
+import SectionSolarPanel2 from "../components/EnergyComponents/SectionSolarPanel2.astro";
+import SectionSolarPanelHero from "../components/EnergyComponents/SectionSolarPanelHero.astro";
+---
+
+<Layout title="Tesla | Energy">
+    <LandingHeader />
+    <main class="snap-y snap-mandatory relative w-full h-screen overflow-auto">
+      <div class="snap-center">
+        <SectionSolarPanelHero />
+      </div>
+      <div class="snap-center">
+        <SectionSolarPanel2 />
+      </div>
+  
+    </main>
+  </Layout>

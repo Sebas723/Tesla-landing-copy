@@ -1,7 +1,7 @@
 ---
 import LandingHeader from "../components/LandingHeader.astro";
 import Layout from "../layouts/Layout.astro";
-import StoreChangeMoto from "../components/StoreChangeMoto.astro";
+import StoreChangeMoto from "../components/StoreComponents/StoreChangeMoto.astro";
 ---
 
 <Layout title="Tesla/Store.">
@@ -10,7 +10,7 @@ import StoreChangeMoto from "../components/StoreChangeMoto.astro";
 <div class="carousel h-[100vh] w-[99vw] overflow-hidden relative"> <!-- carrusel-->
     <div class="list"> <!-- lista del carrusel -->
         <div class="item w-[100%] h-[100%] absolute inset-0"> <!-- Item del carrusel -->
-            <img src="img1.jpg" alt="" class="w-[100%] h-[100%] object-cover animate-showImage">
+            <img src="images-store/img1.jpg" alt="" class="w-[100%] h-[100%] object-cover animate-showImage">
             <div class="absolute top-[15%] w-[1140px] max-w-[80%] -left-[9.4%] translate-x-1/2 pr-[30%] text-white box-border"> <!-- contenido -->
                 <div class="text-[12px] font-bold tracking-custom-10px animate-showContent">TESLA</div> <!-- autor -->
                 <div class="text-6xl font-bold leading-custom-1.3em animate-showContent delay-[1.2s]">DESIGN SLIDER</div> <!-- titulo -->
@@ -32,7 +32,7 @@ import StoreChangeMoto from "../components/StoreChangeMoto.astro";
         </div>
 
         <div class="item w-[100%] h-[100%] absolute inset-0"> <!-- Item del carrusel -->
-            <img src="img2.jpg" alt="" class="w-[100%] h-[100%] object-cover animate-showImage">
+            <img src="images-store/img2.jpg" alt="" class="w-[100%] h-[100%] object-cover animate-showImage">
             <div class="absolute top-[15%] w-[1140px] max-w-[80%] -left-[9.4%] translate-x-1/2 pr-[30%] text-white box-border"> <!-- contenido -->
                 <div class="text-[12px] font-bold tracking-custom-10px animate-showContent">TESLA</div> <!-- autor -->
                 <div class="text-6xl font-bold leading-custom-1.3em animate-showContent delay-[1.2s]">DESIGN SLIDER</div> <!-- titulo -->
@@ -54,7 +54,7 @@ import StoreChangeMoto from "../components/StoreChangeMoto.astro";
         </div>
 
         <div class="item w-[100%] h-[100%] absolute inset-0"> <!-- Item del carrusel -->
-            <img src="img3.jpg" alt="" class="w-[100%] h-[100%] object-cover animate-showImage">
+            <img src="images-store/img3.jpg" alt="" class="w-[100%] h-[100%] object-cover animate-showImage">
             <div class="absolute top-[15%] w-[1140px] max-w-[80%] -left-[9.4%] translate-x-1/2 pr-[30%] text-white box-border"> <!-- contenido -->
                 <div class="text-[12px] font-bold tracking-custom-10px animate-showContent">TESLA</div> <!-- autor -->
                 <div class="text-6xl font-bold leading-custom-1.3em animate-showContent delay-[1.2s]">DESIGN SLIDER</div> <!-- titulo -->
@@ -76,7 +76,7 @@ import StoreChangeMoto from "../components/StoreChangeMoto.astro";
         </div>
 
         <div class="item w-[100%] h-[100%] absolute inset-0"> <!-- Item del carrusel -->
-            <img src="img4.jpg" alt="" class="w-[100%] h-[100%] object-cover animate-showImage">
+            <img src="images-store/img4.jpg" alt="" class="w-[100%] h-[100%] object-cover animate-showImage">
             <div class="absolute top-[15%] w-[1140px] max-w-[80%] -left-[9.4%] translate-x-1/2 pr-[30%] text-white box-border"> <!-- contenido -->
                 <div class="text-[12px] font-bold tracking-custom-10px animate-showContent">TESLA</div> <!-- autor -->
                 <div class="text-6xl font-bold leading-custom-1.3em animate-showContent delay-[1.2s]">DESIGN SLIDER</div> <!-- titulo -->
@@ -100,7 +100,7 @@ import StoreChangeMoto from "../components/StoreChangeMoto.astro";
 
     <div class="thumbnail absolute bottom-[69px] left-[50%] w-max z-10 flex gap-4 animate-showThumbnail"> <!-- Contenedor del slider -->
         <div class="item w-[150px] h-[220px] shrink-0 relative"> <!-- item del contenedor del slider -->
-            <img src="img1.jpg" alt="" class="w-[100%] h-[100%] object-cover rounded-[20px]">
+            <img src="images-store/img1.jpg" alt="" class="w-[100%] h-[100%] object-cover rounded-[20px]">
             <div class="text-white text-[11px] absolute bottom-1 left-4 right-4"> <!-- Contenedor del contenido del slider -->
                 <div class="font-medium">Name Slider</div> <!-- Titulo de cada slider -->
                 <div class="font-light">Description</div> <!-- Descripcion de cada slider -->
@@ -108,7 +108,7 @@ import StoreChangeMoto from "../components/StoreChangeMoto.astro";
         </div>
 
         <div class="item w-[150px] h-[220px] shrink-0 relative"> <!-- item del contenedor del slider -->
-            <img src="img2.jpg" alt="" class="w-[100%] h-[100%] object-cover rounded-[20px]">
+            <img src="images-store/img2.jpg" alt="" class="w-[100%] h-[100%] object-cover rounded-[20px]">
             <div class="text-white text-[11px] absolute bottom-1 left-4 right-4"> <!-- Contenedor del contenido del slider -->
                 <div class="font-medium">Name Slider</div> <!-- Titulo de cada slider -->
                 <div class="font-light">Description</div> <!-- Descripcion de cada slider -->
@@ -116,7 +116,7 @@ import StoreChangeMoto from "../components/StoreChangeMoto.astro";
         </div>
 
         <div class="item w-[150px] h-[220px] shrink-0 relative"> <!-- item del contenedor del slider -->
-            <img src="img3.jpg" alt="" class="w-[100%] h-[100%] object-cover rounded-[20px]">
+            <img src="images-store/img3.jpg" alt="" class="w-[100%] h-[100%] object-cover rounded-[20px]">
             <div class="text-white text-[11px] absolute bottom-1 left-4 right-4"> <!-- Contenedor del contenido del slider -->
                 <div class="font-medium">Name Slider</div> <!-- Titulo de cada slider -->
                 <div class="font-light">Description</div> <!-- Descripcion de cada slider -->
@@ -124,7 +124,7 @@ import StoreChangeMoto from "../components/StoreChangeMoto.astro";
         </div>
 
         <div class="item w-[150px] h-[220px] shrink-0 relative"> <!-- item del contenedor del slider -->
-            <img src="img4.jpg" alt="" class="w-[100%] h-[100%] object-cover rounded-[20px]">
+            <img src="images-store/img4.jpg" alt="" class="w-[100%] h-[100%] object-cover rounded-[20px]">
             <div class="text-white text-[11px] absolute bottom-1 left-4 right-4"> <!-- Contenedor del contenido del slider -->
                 <div class="font-medium">Name Slider</div> <!-- Titulo de cada slider -->
                 <div class="font-light">Description</div> <!-- Descripcion de cada slider -->
