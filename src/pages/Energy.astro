@@ -1,18 +1,30 @@
 ---
 import LandingHeader from "../components/LandingHeader.astro";
 import Layout from "../layouts/Layout.astro";
-import SectionSolarPanel2 from "../components/EnergyComponents/SectionSolarPanel2.astro";
-import SectionSolarPanelHero from "../components/EnergyComponents/SectionSolarPanelHero.astro";
+import SectionEnergy2 from "../components/EnergyComponents/SectionEnergy2.astro";
+import SectionEnergyHero from "../components/EnergyComponents/SectionEnergyHero.astro";
+import SectionEnergy4 from "../components/EnergyComponents/SectionEnergy4.astro";
+import SectionEnergy5 from "../components/EnergyComponents/SectionEnergy5.astro";
+import SectionEnergy6 from "../components/EnergyComponents/SectionEnergy6.astro";
 ---
 
 <Layout title="Tesla | Energy">
     <LandingHeader />
     <main class="snap-y snap-mandatory relative w-full h-screen overflow-auto">
       <div class="snap-center">
-        <SectionSolarPanelHero />
+        <SectionEnergyHero />
       </div>
       <div class="snap-center">
-        <SectionSolarPanel2 />
+        <SectionEnergy2 />
+      </div>
+      <div class="snap-center">
+        <SectionEnergy4 />
+      </div>
+      <div class="snap-center">
+        <SectionEnergy5 />
+      </div>
+      <div class="snap-center">
+        <SectionEnergy6 />
       </div>
   
     </main>
